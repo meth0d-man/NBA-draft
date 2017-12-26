@@ -1,0 +1,35 @@
+thead {
+    display: inline-block;
+}
+
+th{
+    padding-right: 2.5em;
+}
+tr td:first-child {
+    display: none;
+}
+tr td:nth-child(4) {
+    display: none;
+}
+
+tr td:nth-child(5) {
+    display: none;
+}
+
+tr td:nth-child(7) {
+    display: none;
+}
+
+tr td:nth-child(10) {
+    display: none;
+}
+tr td:nth-child(3) {
+    display: none;
+}
+tr td:nth-child(12) {
+    display: none;
+}
+ td {
+    display: inline-block;
+    width:150px;
+}

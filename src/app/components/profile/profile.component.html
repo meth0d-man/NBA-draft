@@ -1,0 +1,31 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Date of birth</th>
+      <th scope="col">State</th>
+      <th scope="col">College/University</th>
+      <th scope="col">Height</th>
+      <th scope="col">Weight</th>
+      <th scope="col">Team</th>
+      <th scope="col">Position</th>
+    </tr>
+  </thead>
+  
+  <tbody *ngIf="rendered">
+     
+    <tr *ngFor="let player of profile">
+        <td>{{player[3]}}</td>
+        <td>{{player[6]}}</td>
+        <td>{{player[8]}}</td>
+        <td>{{player[9]}}</td>
+        <td>{{player[10]}}</td>
+        <td>{{player[11]}}</td>
+        <td>{{player[17]}}</td>
+        <td>{{player[14]}}</td>
+    </tr>
+  
+ 
+</tbody>
+
+</table>

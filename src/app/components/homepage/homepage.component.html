@@ -1,0 +1,24 @@
+<table id="players" class="table table-hover">
+  <thead>
+    <tr>
+     
+      <th scope="col">Full name</th>
+      <th scope="col">Draft position</th>
+      <th scope="col">Team name(City and club name)</th>
+      <th scope="col">College/University</th>
+    </tr>
+  </thead>
+  
+  <tbody *ngIf="rendered">
+    
+    <tr style="cursor:pointer;" *ngFor="let player of allPlayers;let i=index;">
+        
+    <div *ngIf="i < 20">
+        
+          <td (click)="navigateProfile($event)" *ngFor="let playerField of player">{{playerField}}</td>
+      </div>
+  </tr>
+
+</tbody>
+
+</table>
